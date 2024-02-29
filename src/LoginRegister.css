@@ -1,0 +1,29 @@
+.container{
+margin: 0px;
+padding: 0px;
+background-color: blue;
+width: 500px;
+height: 250px;
+margin-top: 200px;
+margin-left: 350px;
+border-radius: 10px;
+box-shadow: 10px 10px red;
+}
+.container h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.name{
+   margin-left: 100px;
+   color: white;
+   
+}
+.type{
+    margin-left: 30px;
+}
+.but{
+  margin-left: 250px;
+  cursor: pointer;
+}

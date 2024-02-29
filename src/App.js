@@ -28,6 +28,8 @@ function App() {
 <Karuppu poj={name} />
 <Task value ={int3}/>
 <Task val = {na}/> */}
+{/* <Form /> 
+<Count /> */}
 <BrowserRouter>
 <Routes>
   <Route path="/" element={<Count />} />
@@ -35,9 +37,9 @@ function App() {
 </Routes>
 </BrowserRouter>
 <LoginRegister />
-{/* <Form /> 
-<Count /> */}
+    my first project
   </div>
+  
   );
 }
 

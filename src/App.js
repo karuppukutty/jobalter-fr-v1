@@ -7,7 +7,8 @@ import './App.css';
 import Form from './Form';
 import Count from './Count';
 import { BrowserRouter, Routes , Route } from 'react-router-dom';
-import LoginRegister from './LoginRegister';
+// import LoginRegister from './LoginRegister';
+import LoginSignup from './components/LoginSignup/LoginSignup';
 
 
 function App() {
@@ -36,10 +37,12 @@ function App() {
   <Route path="/Form" element={<Form />} />
 </Routes>
 </BrowserRouter>
-<LoginRegister />
-    my first project
+{/* <LoginRegister /> */}
+<LoginSignup />
+my first project
+
   </div>
-  
+
   );
 }
 
